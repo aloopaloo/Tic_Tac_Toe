@@ -14,7 +14,13 @@
 }
 
 .msg-container{
-    height: 20vmin;
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4vmin;
+
 }
 
 .winner{
