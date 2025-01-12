@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.h1{
+    color: white;
+    text-align: center;
+    font-family: "Jersey 15", serif;
+    font-weight: 150;
+    font-style: normal;
+    font-style: normal;
+    font-size: 80px;
+}
+
+.msg-container{
+    height: 20vmin;
+}
+
+.winner{
+    color: white;
+    text-align: center;
+    font-family: "Jersey 15", serif;
+    font-weight: 150;
+    font-style: normal;
+    font-style: normal;
+    font-size: 30px;
+}
+      
+#body{
+    background-color: black;
+    text-align: center;
+}
+.container{
+    /* background-color: #a1a6b4; */
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    font-family: "Playwrite AU SA", serif;
+    font-optical-sizing: auto;
+    font-weight: 1600;
+    font-style: bold;
+    font-size: 8vmin;
+    background-color: #b4d2e7;
+    color: black;
+}
+
+#newgame{
+    height: 10vmin;
+    width: 20vmin;
+    border-radius: 15px;
+    text-align: center;
+    font-family: "Jersey 15", serif;
+    font-weight: 7;
+    font-style: italic;
+    font-size: 30px;
+    background-color: #b4d2e7;
+}
+
+.hide{
+    display: none;
+}
